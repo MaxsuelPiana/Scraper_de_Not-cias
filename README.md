@@ -13,3 +13,22 @@ Este projeto tem como objetivo coletar automaticamente os títulos das principai
    * Python 3.x
    * requests
    * BeautifulSoup (bs4)
+
+   
+   
+  *** O script "my_first_scraper.py" apenas imprime os títulos no terminal (linha de comando). Ele não exibe em uma página web.
+  
+   ** Para transformar o script em uma aplicação web usar Flask (microframework em Python para criar páginas web dinâmicas)
+      "app.py" contem o servidor web em python com Flask
+      "templates/index.html" = HTML da página web gerada
+
+     # INSTALE O FLASK:
+     pip install flask
+
+     # RODE O APP:
+     python app.py
+
+     # ACESSE O NAVEGADOR:
+     http://127.0.0.1:5000
+   
+ 
